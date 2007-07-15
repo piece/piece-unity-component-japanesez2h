@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+<package packagerversion="1.5.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Unity_Component_JapaneseZ2H</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>An output filter which can be used to convert Japanese JIS X0208 kana to JIS X0201 kana.</summary>
+ <description>An output filter which can be used to convert Japanese JIS X0208 kana to JIS X0201 kana.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-07-16</date>
+ <time>00:06:16</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>The first release of Piece_Unity_Component_JapaneseZ2H.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <dir name="Piece">
+    <dir name="Unity">
+     <dir name="Plugin">
+      <dir name="OutputFilter">
+       <file name="JapaneseZ2H.php" role="php" />
+      </dir> <!-- //Piece/Unity/Plugin/OutputFilter -->
+     </dir> <!-- //Piece/Unity/Plugin -->
+    </dir> <!-- //Piece/Unity -->
+   </dir> <!-- //Piece -->
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.13.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-07-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first release of Piece_Unity_Component_JapaneseZ2H.</notes>
+  </release>
+ </changelog>
+</package>
