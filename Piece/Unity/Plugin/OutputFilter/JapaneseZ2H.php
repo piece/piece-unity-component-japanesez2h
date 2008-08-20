@@ -126,4 +126,3 @@ class Piece_Unity_Plugin_OutputFilter_JapaneseZ2H extends Piece_Unity_Plugin_Com
  * indent-tabs-mode: nil
  * End:
  */
-?>
